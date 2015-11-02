@@ -1,6 +1,9 @@
 # St. Joseph Secondary School App.
 This is where we will be storing our application, feel free to look at our code to check out what our app does and how we did it.
 
+# Visit our website
+http://brandonandre.github.io/St.-Joseph/
+
 # Main Features
 This app will allow you to do the following:
 
