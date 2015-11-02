@@ -6,10 +6,4 @@
     android:minWidth="25px"
     android:minHeight="25px"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:actionBarNavMode="list">
-    <CheckBox
-        android:text="CheckBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkBox1" />
-</LinearLayout>
+    tools:actionBarNavMode="list" />
