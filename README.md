@@ -1,6 +1,10 @@
 # St. Joseph Secondary School App.
 This is where we will be storing our application, feel free to look at our code to check out what our app does and how we did it.
 
+# Android Downloads
+You can download the latest apk here:
+https://drive.google.com/folderview?id=0B0k8hqQOhiUNb090QURlMEdmNzQ&usp=sharing
+
 # Visit our website
 http://brandonandre.github.io/St.-Joseph/
 
