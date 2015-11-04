@@ -130,12 +130,31 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int monoandroidsplash = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f080000
+			public const int android_support_v7_widget_CardView2 = 2131230720;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -192,6 +211,9 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f060002
 			public const int CardView_Light = 2131099650;
+			
+			// aapt resource value: 0x7f060006
+			public const int Mono_Android_Theme_Splash = 2131099654;
 			
 			// aapt resource value: 0x7f060005
 			public const int MyTextAppearance = 2131099653;
