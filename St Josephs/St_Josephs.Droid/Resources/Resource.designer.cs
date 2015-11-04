@@ -146,8 +146,11 @@ namespace St_Josephs.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080000
-			public const int android_support_v7_widget_CardView2 = 2131230720;
+			// aapt resource value: 0x7f090000
+			public const int android_support_v7_widget_CardView2 = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int notepad = 2131296257;
 			
 			static Id()
 			{
@@ -171,6 +174,22 @@ namespace St_Josephs.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f080000
+			public const int main_menu = 2131230720;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

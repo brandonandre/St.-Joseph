@@ -8,10 +8,10 @@ using Android.App;
 [assembly: AssemblyTitle ("St_Josephs.Droid")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("joe")]
-[assembly: AssemblyTrademark ("")]
+[assembly: AssemblyCompany ("Brandon Apps")]
+[assembly: AssemblyProduct ("SJCSS")]
+[assembly: AssemblyCopyright ("Brandon")]
+[assembly: AssemblyTrademark ("Brandon Andre 2015")]
 [assembly: AssemblyCulture ("")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
