@@ -92,6 +92,9 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f040004
 			public const int color_action_bar = 2130968580;
 			
+			// aapt resource value: 0x7f040005
+			public const int darker_action_bar = 2130968581;
+			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -151,6 +154,9 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f090001
 			public const int notepad = 2131296257;
+			
+			// aapt resource value: 0x7f090002
+			public const int settings = 2131296258;
 			
 			static Id()
 			{
@@ -216,9 +222,6 @@ namespace St_Josephs.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int ActionBarTheme = 2131099652;
-			
 			// aapt resource value: 0x7f060003
 			public const int AppTheme = 2131099651;
 			
@@ -231,11 +234,8 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f060002
 			public const int CardView_Light = 2131099650;
 			
-			// aapt resource value: 0x7f060006
-			public const int Mono_Android_Theme_Splash = 2131099654;
-			
-			// aapt resource value: 0x7f060005
-			public const int MyTextAppearance = 2131099653;
+			// aapt resource value: 0x7f060004
+			public const int Mono_Android_Theme_Splash = 2131099652;
 			
 			static Style()
 			{
