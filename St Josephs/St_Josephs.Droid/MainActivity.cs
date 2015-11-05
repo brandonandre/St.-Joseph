@@ -13,6 +13,8 @@ namespace St_Josephs.Droid
     public class MainActivity : Activity
 	{
 
+        public Boolean inflated = false;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -24,8 +26,13 @@ namespace St_Josephs.Droid
         //Preparing the menu to inflate it.
         public override bool OnPrepareOptionsMenu(IMenu menu)
         {
-            MenuInflater.Inflate(Resource.Menu.main_menu, menu);
-            return base.OnPrepareOptionsMenu(menu);
+            if (inflated == false)
+            {
+                MenuInflater.Inflate(Resource.Menu.main_menu, menu);
+                inflated = true;
+                return base.OnPrepareOptionsMenu(menu);
+            }
+            return false;
         }
 
         //When a menu item is clicked.
@@ -34,8 +41,8 @@ namespace St_Josephs.Droid
             switch (item.ItemId)
             {
                 case Resource.Id.notepad:
-                    //do something
-                    return true;
+                    StartActivity(typeof(Notepad));
+                    return false;
             }
             return base.OnOptionsItemSelected(item);
         }
