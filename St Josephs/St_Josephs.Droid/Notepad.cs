@@ -12,14 +12,14 @@ using Android.Widget;
 
 namespace St_Josephs.Droid
 {
-    [Activity(Label = "Notepad")]
+    [Activity(Label = "Notepad", ParentActivity = typeof(MainActivity), Theme = "@style/NotepadTheme")]
     public class Notepad : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            // Create your application here
+            SetContentView(Resource.Layout.Notepad);
         }
     }
 }

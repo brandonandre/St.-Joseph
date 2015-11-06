@@ -12,5 +12,17 @@
     <item name="android:actionMenuTextColor">#ffffff</item>
   </style>
 
+  <style name="NotepadTheme" parent="android:Theme.Material">
+
+    <item name="android:colorPrimary">#FFC107</item>
+    <item name="android:colorPrimaryDark">#FFA000</item>
+    <item name="android:colorAccent">#FFC107</item>
+
+    <item name="android:textColorPrimary">#ffffff</item>
+
+    <item name="android:actionMenuTextColor">#ffffff</item>
+  </style>
+
+
 
 </resources>
