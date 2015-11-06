@@ -1,6 +1,9 @@
 # St. Joseph Secondary School App.
 This is where we will be storing our application, feel free to look at our code to check out what our app does and how we did it.
 
+# Open Source Project
+This project is completely open source to expire other students to create apps. We want this to be used as a resourse to help you out or just to see our programming techniques. Check out the contribute section near the bottom of the read me if you would like to learn more about contributing to the project! Enjoy.
+
 # Android Downloads
 You can download the latest apk here:
 
@@ -25,6 +28,12 @@ This app will allow you to do the following:
   * Brandon Andre (Main Programmer)
   * Kyle Johnson (Programmer)
   * Jeyon Jeyanandan (Programmer)
+
+# Contribute
+
+We welcome anybody to create pull requests or just have some suggestions to the application. We will look over the changes and test them out to the beta channel.
+
+Thank you!
 
 # License
 
