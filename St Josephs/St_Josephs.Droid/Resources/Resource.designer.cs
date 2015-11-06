@@ -196,10 +196,13 @@ namespace St_Josephs.Droid
 			public const int fab_shadow_mini = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int ic_add_white_24dp = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int monoandroidsplash = 2130837507;
+			public const int Icon = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int monoandroidsplash = 2130837508;
 			
 			static Drawable()
 			{
@@ -217,17 +220,20 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f090002
 			public const int android_support_v7_widget_CardView2 = 2131296258;
 			
+			// aapt resource value: 0x7f090003
+			public const int fab = 2131296259;
+			
 			// aapt resource value: 0x7f090000
 			public const int mini = 2131296256;
 			
 			// aapt resource value: 0x7f090001
 			public const int normal = 2131296257;
 			
-			// aapt resource value: 0x7f090003
-			public const int notepad = 2131296259;
-			
 			// aapt resource value: 0x7f090004
-			public const int settings = 2131296260;
+			public const int notepad = 2131296260;
+			
+			// aapt resource value: 0x7f090005
+			public const int settings = 2131296261;
 			
 			static Id()
 			{
