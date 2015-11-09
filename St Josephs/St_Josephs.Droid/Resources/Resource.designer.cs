@@ -254,6 +254,9 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f030001
 			public const int Notepad = 2130903041;
 			
+			// aapt resource value: 0x7f030002
+			public const int Settings = 2130903042;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -269,6 +272,9 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f080000
 			public const int main_menu = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int notepad = 2131230721;
 			
 			static Menu()
 			{
