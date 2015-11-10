@@ -43,6 +43,9 @@ namespace St_Josephs.Droid
                 case Resource.Id.notepad:
                     StartActivity(typeof(Notepad));
                     return false;
+                case Resource.Id.settings:
+                    StartActivity(typeof(Settings));
+                    return false;
             }
             return base.OnOptionsItemSelected(item);
         }

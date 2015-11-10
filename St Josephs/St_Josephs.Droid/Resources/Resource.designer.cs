@@ -51,6 +51,25 @@ namespace St_Josephs.Droid
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_size = global::St_Josephs.Droid.Resource.Styleable.FloatingActionButton_fab_size;
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f080001
+			public const int items = 2131230721;
+			
+			// aapt resource value: 0x7f080000
+			public const int times = 2131230720;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -118,26 +137,26 @@ namespace St_Josephs.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int cardview_dark_background = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int cardview_dark_background = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int cardview_light_background = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int cardview_light_background = 2131034113;
 			
-			// aapt resource value: 0x7f040002
-			public const int cardview_shadow_end_color = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int cardview_shadow_end_color = 2131034114;
 			
-			// aapt resource value: 0x7f040003
-			public const int cardview_shadow_start_color = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int cardview_shadow_start_color = 2131034115;
 			
-			// aapt resource value: 0x7f040005
-			public const int color_action_bar = 2130968581;
+			// aapt resource value: 0x7f050005
+			public const int color_action_bar = 2131034117;
 			
-			// aapt resource value: 0x7f040006
-			public const int darker_action_bar = 2130968582;
+			// aapt resource value: 0x7f050006
+			public const int darker_action_bar = 2131034118;
 			
-			// aapt resource value: 0x7f040004
-			public const int fab_material_blue_500 = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int fab_material_blue_500 = 2131034116;
 			
 			static Color()
 			{
@@ -152,29 +171,29 @@ namespace St_Josephs.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int cardview_compat_inset_shadow = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int cardview_compat_inset_shadow = 2131099648;
 			
-			// aapt resource value: 0x7f050001
-			public const int cardview_default_elevation = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int cardview_default_elevation = 2131099649;
 			
-			// aapt resource value: 0x7f050002
-			public const int cardview_default_radius = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int cardview_default_radius = 2131099650;
 			
-			// aapt resource value: 0x7f050007
-			public const int fab_elevation_lollipop = 2131034119;
+			// aapt resource value: 0x7f060007
+			public const int fab_elevation_lollipop = 2131099655;
 			
-			// aapt resource value: 0x7f050006
-			public const int fab_scroll_threshold = 2131034118;
+			// aapt resource value: 0x7f060006
+			public const int fab_scroll_threshold = 2131099654;
 			
-			// aapt resource value: 0x7f050005
-			public const int fab_shadow_size = 2131034117;
+			// aapt resource value: 0x7f060005
+			public const int fab_shadow_size = 2131099653;
 			
-			// aapt resource value: 0x7f050004
-			public const int fab_size_mini = 2131034116;
+			// aapt resource value: 0x7f060004
+			public const int fab_size_mini = 2131099652;
 			
-			// aapt resource value: 0x7f050003
-			public const int fab_size_normal = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int fab_size_normal = 2131099651;
 			
 			static Dimension()
 			{
@@ -217,23 +236,23 @@ namespace St_Josephs.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090002
-			public const int android_support_v7_widget_CardView2 = 2131296258;
+			// aapt resource value: 0x7f0b0002
+			public const int android_support_v7_widget_CardView2 = 2131427330;
 			
-			// aapt resource value: 0x7f090003
-			public const int fab = 2131296259;
+			// aapt resource value: 0x7f0b0003
+			public const int fab = 2131427331;
 			
-			// aapt resource value: 0x7f090000
-			public const int mini = 2131296256;
+			// aapt resource value: 0x7f0b0000
+			public const int mini = 2131427328;
 			
-			// aapt resource value: 0x7f090001
-			public const int normal = 2131296257;
+			// aapt resource value: 0x7f0b0001
+			public const int normal = 2131427329;
 			
-			// aapt resource value: 0x7f090004
-			public const int notepad = 2131296260;
+			// aapt resource value: 0x7f0b0004
+			public const int notepad = 2131427332;
 			
-			// aapt resource value: 0x7f090005
-			public const int settings = 2131296261;
+			// aapt resource value: 0x7f0b0005
+			public const int settings = 2131427333;
 			
 			static Id()
 			{
@@ -254,9 +273,6 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f030001
 			public const int Notepad = 2130903041;
 			
-			// aapt resource value: 0x7f030002
-			public const int Settings = 2130903042;
-			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -270,11 +286,11 @@ namespace St_Josephs.Droid
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f080000
-			public const int main_menu = 2131230720;
+			// aapt resource value: 0x7f0a0000
+			public const int main_menu = 2131361792;
 			
-			// aapt resource value: 0x7f080001
-			public const int notepad = 2131230721;
+			// aapt resource value: 0x7f0a0001
+			public const int notepad = 2131361793;
 			
 			static Menu()
 			{
@@ -289,11 +305,11 @@ namespace St_Josephs.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int app_name = 2131165185;
+			// aapt resource value: 0x7f090001
+			public const int app_name = 2131296257;
 			
-			// aapt resource value: 0x7f070000
-			public const int hello = 2131165184;
+			// aapt resource value: 0x7f090000
+			public const int hello = 2131296256;
 			
 			static String()
 			{
@@ -308,23 +324,23 @@ namespace St_Josephs.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060003
-			public const int AppTheme = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int AppTheme = 2131165187;
 			
-			// aapt resource value: 0x7f060000
-			public const int CardView = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int CardView = 2131165184;
 			
-			// aapt resource value: 0x7f060001
-			public const int CardView_Dark = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int CardView_Dark = 2131165185;
 			
-			// aapt resource value: 0x7f060002
-			public const int CardView_Light = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int CardView_Light = 2131165186;
 			
-			// aapt resource value: 0x7f060005
-			public const int Mono_Android_Theme_Splash = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int Mono_Android_Theme_Splash = 2131165189;
 			
-			// aapt resource value: 0x7f060004
-			public const int NotepadTheme = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int NotepadTheme = 2131165188;
 			
 			static Style()
 			{
@@ -332,6 +348,22 @@ namespace St_Josephs.Droid
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int Settings = 2130968576;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

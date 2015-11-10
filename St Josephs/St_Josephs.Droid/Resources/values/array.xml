@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="times">
+    <item>10 minutes</item>
+    <item>30 minutes</item>
+    <item>1 hour</item>
+    <item>2 hours</item>
+    <item>3 hours</item>
+    <item>5 hours</item>
+    <item>12 hours</item>
+    <item>1 day</item>
+  </string-array>
+
+
+  <string-array name="items">
+    <item>Take a picture of a paper</item>
+    <item>Note</item>
+    <item>Due Date</item>
+    <item>Event</item>
+    <item>Class Schedule</item>
+    <item>Locker Combination</item>
+  </string-array>
+</resources>
