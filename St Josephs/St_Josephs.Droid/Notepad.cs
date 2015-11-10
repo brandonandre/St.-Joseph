@@ -84,7 +84,7 @@ namespace St_Josephs.Droid
                 builder.SetTitle("Opps!");
                 builder.SetMessage("We couldn't get the image! Did you cancel?");
                 builder.SetCancelable(true);
-                builder.Create().Show();
+                builder.Create().Show(); 
             }
         }
 

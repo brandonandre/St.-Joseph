@@ -1,0 +1,50 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+    android:title="GENERAL"
+    android:key="pref_key_storage_settings">
+    <CheckBoxPreference
+            android:key="next_screen_checkbox_preference"
+            android:title="Notifications" 
+            android:summary="Allow us to push notifications to your device." />
+
+    <ListPreference
+            android:dependency="next_screen_checkbox_preference"
+            android:key="pref_syncConnectionType"
+            android:title="Check every..."
+            android:dialogTitle="Check notifications every..."
+            android:entries="@array/times"
+            android:entryValues="@array/times"
+            android:defaultValue="30 minutes" />
+    
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="INFORMATION"
+      android:key="info">
+
+    <Preference
+            android:key="credit"
+            android:title="Developer"
+            android:summary="Brandon Andre" />
+
+    <Preference
+        android:key="credit"
+        android:title="Open Source Licences"/>
+
+    <Preference
+        android:key="github"
+        android:title="View this project on Github."/>
+
+    <Preference
+        android:key="credit"
+        android:title="Version"
+        android:summary="0.0.1 Beta"/>
+
+    <Preference
+        android:key="agree"
+        android:title="Agreement"/>
+    
+  </PreferenceCategory>
+
+  </PreferenceScreen>
