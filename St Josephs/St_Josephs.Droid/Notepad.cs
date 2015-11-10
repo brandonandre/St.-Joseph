@@ -6,9 +6,13 @@ using com.refractored.fab;
 using Android.App;
 using Android.Content;
 using Android.OS;
+using Android.Media;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Provider;
+using Android.Net;
+using Android.Graphics;
 
 namespace St_Josephs.Droid
 {
@@ -19,7 +23,7 @@ namespace St_Josephs.Droid
         public Boolean inflated = false;
         public Boolean inflated2 = false;
         DateTime _lastMouseEventTime = DateTime.UtcNow;
-
+        private Android.Net.Uri _currentImageUri;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -43,7 +47,45 @@ namespace St_Josephs.Droid
 
         private void ListClicked(object sender, DialogClickEventArgs e)
         {
-             //List clicked.
+            switch ((int)e.Which)
+            {
+                case 0:
+
+                    var takePictureIntent = new Intent(MediaStore.ActionImageCapture);
+                    StartActivityForResult(takePictureIntent, 1001);
+
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+            }
+        }
+
+        //PREPARE IMAGE.
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (requestCode == 1001 && resultCode == Result.Ok)
+            {
+                var bitmap = (Bitmap)data.Extras.Get("data");
+
+                //TODO: Do something useful with the thumbnail
+            } else
+            {
+                var builder = new AlertDialog.Builder(this);
+                builder.SetTitle("Opps!");
+                builder.SetMessage("We couldn't get the image! Did you cancel?");
+                builder.SetCancelable(true);
+                builder.Create().Show();
+            }
         }
 
         //Preparing the menu to inflate it.
