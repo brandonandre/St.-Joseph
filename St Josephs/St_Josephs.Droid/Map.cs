@@ -32,8 +32,8 @@ namespace St_Josephs.Droid
         {
 
             googleMap.AddMarker(new MarkerOptions()
-                .SetPosition(new LatLng(0, 0))
-                .SetTitle("Marker"));
+                .SetPosition(new LatLng(45.036332, -74.749487))
+                .SetTitle("Portable 1"));
         }
 
     }
