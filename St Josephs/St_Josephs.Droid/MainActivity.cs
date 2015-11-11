@@ -46,6 +46,9 @@ namespace St_Josephs.Droid
                 case Resource.Id.settings:
                     StartActivity(typeof(Settings));
                     return false;
+                case Resource.Id.map:
+                    StartActivity(typeof(Map));
+                    return false;
             }
             return base.OnOptionsItemSelected(item);
         }
