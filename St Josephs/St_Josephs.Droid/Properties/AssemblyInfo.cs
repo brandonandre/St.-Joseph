@@ -27,4 +27,4 @@ using Android.App;
 //[assembly: AssemblyKeyFile("")]
 
 [assembly: UsesFeature(GLESVersion = 0x00020000, Required = true)]
-[assembly: MetaData("com.google.android.maps.v2.API_KEY", Value = "AIzaSyDL1QDPeT1UM537JhHxAZAkLuLpNSkSttA ")]
+[assembly: MetaData("com.google.android.maps.v2.API_KEY", Value = "AIzaSyDL1QDPeT1UM537JhHxAZAkLuLpNSkSttA")]
