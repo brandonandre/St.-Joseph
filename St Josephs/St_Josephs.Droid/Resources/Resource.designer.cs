@@ -392,10 +392,13 @@ namespace St_Josephs.Droid
 			public const int ic_add_white_24dp = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int Icon = 2130837533;
+			public const int ic_search_white_24dp = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int monoandroidsplash = 2130837534;
+			public const int Icon = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int monoandroidsplash = 2130837535;
 			
 			static Drawable()
 			{
@@ -424,6 +427,9 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f0c0000
 			public const int hybrid = 2131492864;
+			
+			// aapt resource value: 0x7f0c000d
+			public const int inside = 2131492877;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int map = 2131492873;
@@ -507,7 +513,10 @@ namespace St_Josephs.Droid
 			public const int main_menu = 2131427328;
 			
 			// aapt resource value: 0x7f0b0001
-			public const int notepad = 2131427329;
+			public const int map = 2131427329;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int notepad = 2131427330;
 			
 			static Menu()
 			{
@@ -656,7 +665,10 @@ namespace St_Josephs.Droid
 			public const int CardView_Light = 2131296258;
 			
 			// aapt resource value: 0x7f090005
-			public const int Mono_Android_Theme_Splash = 2131296261;
+			public const int MapTheme = 2131296261;
+			
+			// aapt resource value: 0x7f090006
+			public const int Mono_Android_Theme_Splash = 2131296262;
 			
 			// aapt resource value: 0x7f090004
 			public const int NotepadTheme = 2131296260;

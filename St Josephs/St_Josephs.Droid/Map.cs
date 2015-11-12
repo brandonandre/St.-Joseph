@@ -16,11 +16,12 @@ using Android.Graphics;
 
 namespace St_Josephs.Droid
 {
-    [Activity(Label = "Map")]
+    [Activity(Label = "Map", ParentActivity = typeof(MainActivity), Theme = "@style/MapTheme")]
     public class Map : FragmentActivity, IOnMapReadyCallback
     {
 
         public PolygonOptions rectOptions = new PolygonOptions();
+        public Boolean inflated = false;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -80,6 +81,7 @@ namespace St_Josephs.Droid
 
             // Get back the mutable Polygon
             Polygon polygon = googleMap.AddPolygon(rectOptions);
+            
 
             //Portables
             googleMap.AddMarker(new MarkerOptions()
@@ -163,6 +165,31 @@ namespace St_Josephs.Droid
                 .SetPosition(new LatLng(45.026756, -74.750792))
                 .SetSnippet("Resturant - Fast Food")
                 .SetTitle("Billy K's"));
+        }
+
+
+        //Preparing the menu to inflate it.
+        public override bool OnPrepareOptionsMenu(IMenu menu)
+        {
+            if (inflated == false)
+            {
+                MenuInflater.Inflate(Resource.Menu.map, menu);
+                inflated = true;
+                return base.OnPrepareOptionsMenu(menu);
+            }
+            return false;
+        }
+
+        //When a menu item is clicked.
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.inside:
+                    StartActivity(typeof(Notepad));
+                    return false;
+            }
+            return base.OnOptionsItemSelected(item);
         }
 
     }
