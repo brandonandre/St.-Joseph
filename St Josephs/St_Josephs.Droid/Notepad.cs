@@ -57,7 +57,7 @@ namespace St_Josephs.Droid
 
                     break;
                 case 1:
-
+                    StartActivity(typeof(NewNote));
                     break;
                 case 2:
                     break;

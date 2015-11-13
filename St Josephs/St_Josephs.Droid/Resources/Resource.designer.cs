@@ -422,14 +422,20 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0008
 			public const int android_support_v7_widget_CardView2 = 2131492872;
 			
+			// aapt resource value: 0x7f0c000c
+			public const int editText1 = 2131492876;
+			
+			// aapt resource value: 0x7f0c000b
+			public const int editText2 = 2131492875;
+			
 			// aapt resource value: 0x7f0c000a
 			public const int fab = 2131492874;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int hybrid = 2131492864;
 			
-			// aapt resource value: 0x7f0c0010
-			public const int inside = 2131492880;
+			// aapt resource value: 0x7f0c0012
+			public const int inside = 2131492882;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int map = 2131492873;
@@ -443,23 +449,26 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0002
 			public const int normal = 2131492866;
 			
-			// aapt resource value: 0x7f0c000e
-			public const int notepad = 2131492878;
-			
-			// aapt resource value: 0x7f0c000b
-			public const int paper1 = 2131492875;
-			
-			// aapt resource value: 0x7f0c000c
-			public const int paper2 = 2131492876;
+			// aapt resource value: 0x7f0c0010
+			public const int notepad = 2131492880;
 			
 			// aapt resource value: 0x7f0c000d
-			public const int paper3 = 2131492877;
+			public const int paper1 = 2131492877;
+			
+			// aapt resource value: 0x7f0c000e
+			public const int paper2 = 2131492878;
+			
+			// aapt resource value: 0x7f0c000f
+			public const int paper3 = 2131492879;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int satellite = 2131492867;
 			
-			// aapt resource value: 0x7f0c000f
-			public const int settings = 2131492879;
+			// aapt resource value: 0x7f0c0013
+			public const int save = 2131492883;
+			
+			// aapt resource value: 0x7f0c0011
+			public const int settings = 2131492881;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int terrain = 2131492868;
@@ -500,10 +509,13 @@ namespace St_Josephs.Droid
 			public const int Map = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Notepad = 2130903042;
+			public const int Note = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int PictureTake = 2130903043;
+			public const int Notepad = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int PictureTake = 2130903044;
 			
 			static Layout()
 			{
@@ -525,7 +537,10 @@ namespace St_Josephs.Droid
 			public const int map = 2131427329;
 			
 			// aapt resource value: 0x7f0b0002
-			public const int notepad = 2131427330;
+			public const int note = 2131427330;
+			
+			// aapt resource value: 0x7f0b0003
+			public const int notepad = 2131427331;
 			
 			static Menu()
 			{
