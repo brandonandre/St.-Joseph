@@ -428,8 +428,8 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0000
 			public const int hybrid = 2131492864;
 			
-			// aapt resource value: 0x7f0c000d
-			public const int inside = 2131492877;
+			// aapt resource value: 0x7f0c0010
+			public const int inside = 2131492880;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int map = 2131492873;
@@ -443,14 +443,23 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0002
 			public const int normal = 2131492866;
 			
+			// aapt resource value: 0x7f0c000e
+			public const int notepad = 2131492878;
+			
 			// aapt resource value: 0x7f0c000b
-			public const int notepad = 2131492875;
+			public const int paper1 = 2131492875;
+			
+			// aapt resource value: 0x7f0c000c
+			public const int paper2 = 2131492876;
+			
+			// aapt resource value: 0x7f0c000d
+			public const int paper3 = 2131492877;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int satellite = 2131492867;
 			
-			// aapt resource value: 0x7f0c000c
-			public const int settings = 2131492876;
+			// aapt resource value: 0x7f0c000f
+			public const int settings = 2131492879;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int terrain = 2131492868;

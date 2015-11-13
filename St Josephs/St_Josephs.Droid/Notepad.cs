@@ -13,6 +13,7 @@ using Android.Widget;
 using Android.Provider;
 using Android.Net;
 using Android.Graphics;
+using Android.Graphics.Drawables;
 
 namespace St_Josephs.Droid
 {
@@ -56,6 +57,7 @@ namespace St_Josephs.Droid
 
                     break;
                 case 1:
+
                     break;
                 case 2:
                     break;
@@ -76,6 +78,17 @@ namespace St_Josephs.Droid
             if (requestCode == 1001 && resultCode == Result.Ok)
             {
                 var bitmap = (Bitmap)data.Extras.Get("data");
+                ImageButton button1 = FindViewById<ImageButton>(Resource.Id.paper1);
+                ImageButton button2 = FindViewById<ImageButton>(Resource.Id.paper2);
+                ImageButton button3 = FindViewById<ImageButton>(Resource.Id.paper3);
+
+                Bitmap bmp2 = ((BitmapDrawable)button2.Drawable).Bitmap;
+                button3.SetImageBitmap(bmp2);
+
+                Bitmap bmp1 = ((BitmapDrawable)button1.Drawable).Bitmap;
+                button2.SetImageBitmap(bmp1);
+
+                button1.SetImageBitmap(bitmap);
 
                 //TODO: Do something useful with the thumbnail
             } else
