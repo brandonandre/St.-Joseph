@@ -150,4 +150,55 @@
         cardview:fab_colorNormal="#FFC107"
         cardview:fab_colorPressed="#FFB300"
         cardview:fab_colorRipple="#FFB300" />
+    <FrameLayout
+        android:id="@+id/imageShow"
+        android:visibility="gone"
+        android:background="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:id="@+id/mainView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="70dp" />
+        <FrameLayout
+            android:background="#FFF"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/frameLayout2"
+            android:fitsSystemWindows="false"
+            android:elevation="2dp">
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:id="@+id/frameLayout2"
+                android:minWidth="25px"
+                android:minHeight="25px">
+                <ImageButton
+                    android:background="@android:color/transparent"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_share_black_36dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:id="@+id/frameLayout3">
+                <ImageButton
+                    android:background="@android:color/transparent"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_delete_black_36dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
 </FrameLayout>

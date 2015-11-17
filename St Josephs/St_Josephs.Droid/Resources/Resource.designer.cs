@@ -392,13 +392,19 @@ namespace St_Josephs.Droid
 			public const int ic_add_white_24dp = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int ic_search_white_24dp = 2130837533;
+			public const int ic_delete_black_36dp = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int Icon = 2130837534;
+			public const int ic_search_white_24dp = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int monoandroidsplash = 2130837535;
+			public const int ic_share_black_36dp = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int Icon = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int monoandroidsplash = 2130837537;
 			
 			static Drawable()
 			{
@@ -431,11 +437,26 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int fab = 2131492874;
 			
+			// aapt resource value: 0x7f0c0012
+			public const int frameLayout2 = 2131492882;
+			
+			// aapt resource value: 0x7f0c0014
+			public const int frameLayout3 = 2131492884;
+			
 			// aapt resource value: 0x7f0c0000
 			public const int hybrid = 2131492864;
 			
-			// aapt resource value: 0x7f0c0012
-			public const int inside = 2131492882;
+			// aapt resource value: 0x7f0c0013
+			public const int imageButton2 = 2131492883;
+			
+			// aapt resource value: 0x7f0c0010
+			public const int imageShow = 2131492880;
+			
+			// aapt resource value: 0x7f0c0017
+			public const int inside = 2131492887;
+			
+			// aapt resource value: 0x7f0c0011
+			public const int mainView = 2131492881;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int map = 2131492873;
@@ -449,8 +470,8 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0002
 			public const int normal = 2131492866;
 			
-			// aapt resource value: 0x7f0c0010
-			public const int notepad = 2131492880;
+			// aapt resource value: 0x7f0c0015
+			public const int notepad = 2131492885;
 			
 			// aapt resource value: 0x7f0c000d
 			public const int paper1 = 2131492877;
@@ -464,11 +485,11 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0c0003
 			public const int satellite = 2131492867;
 			
-			// aapt resource value: 0x7f0c0013
-			public const int save = 2131492883;
+			// aapt resource value: 0x7f0c0018
+			public const int save = 2131492888;
 			
-			// aapt resource value: 0x7f0c0011
-			public const int settings = 2131492881;
+			// aapt resource value: 0x7f0c0016
+			public const int settings = 2131492886;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int terrain = 2131492868;
@@ -691,11 +712,14 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f090005
 			public const int MapTheme = 2131296261;
 			
-			// aapt resource value: 0x7f090006
-			public const int Mono_Android_Theme_Splash = 2131296262;
+			// aapt resource value: 0x7f090007
+			public const int Mono_Android_Theme_Splash = 2131296263;
 			
 			// aapt resource value: 0x7f090004
 			public const int NotepadTheme = 2131296260;
+			
+			// aapt resource value: 0x7f090006
+			public const int full_screen_dialog = 2131296262;
 			
 			static Style()
 			{

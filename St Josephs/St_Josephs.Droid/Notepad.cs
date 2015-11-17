@@ -14,6 +14,7 @@ using Android.Provider;
 using Android.Net;
 using Android.Graphics;
 using Android.Graphics.Drawables;
+using System.IO;
 
 namespace St_Josephs.Droid
 {
@@ -26,9 +27,15 @@ namespace St_Josephs.Droid
         DateTime _lastMouseEventTime = DateTime.UtcNow;
         private Android.Net.Uri _currentImageUri;
 
+        Bitmap bitmap1;
+        Bitmap bitmap2;
+        Bitmap bitmap3;
+    
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            Window.RequestFeature(WindowFeatures.ActionBar);
 
             SetContentView(Resource.Layout.Notepad);
 
@@ -41,6 +48,55 @@ namespace St_Josephs.Droid
                     builder.SetTitle("New...");
                     builder.SetItems(Resource.Array.items, ListClicked);
                     builder.Create().Show();
+                }
+                _lastMouseEventTime = now;
+            };
+
+            //Load papers.
+            ImageButton button1 = FindViewById<ImageButton>(Resource.Id.paper1);
+            ImageButton button2 = FindViewById<ImageButton>(Resource.Id.paper2);
+            ImageButton button3 = FindViewById<ImageButton>(Resource.Id.paper3);
+
+            string[] filePaths = Directory.GetFiles(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "*.jpeg");
+            if(filePaths.Count() == 3)
+            {
+                bitmap1 = BitmapFactory.DecodeFile(filePaths[0]);
+                button1.SetImageBitmap(bitmap1);
+                bitmap2 = BitmapFactory.DecodeFile(filePaths[1]);
+                button2.SetImageBitmap(bitmap2);
+                bitmap3 = BitmapFactory.DecodeFile(filePaths[2]);
+                button3.SetImageBitmap(bitmap3);
+            } else if(filePaths.Count() == 2)
+            {
+                bitmap1 = BitmapFactory.DecodeFile(filePaths[0]);
+                button1.SetImageBitmap(bitmap1);
+                bitmap2 = BitmapFactory.DecodeFile(filePaths[1]);
+                button2.SetImageBitmap(bitmap2);
+            } else if (filePaths.Count() == 1)
+            {
+                bitmap1 = BitmapFactory.DecodeFile(filePaths[0]);
+                button1.SetImageBitmap(bitmap1);
+            } else
+            {
+                //No images in the array. Perhaps put something here.
+            }
+
+            button1.Touch += delegate {
+                DateTime now = DateTime.UtcNow;
+                if (now.Subtract(_lastMouseEventTime).TotalSeconds >= 0.3)
+                {
+                    if (bitmap1 != null)
+                    {
+                    FrameLayout frame = FindViewById<FrameLayout>(Resource.Id.imageShow);
+
+                    ActionBar.Hide();
+
+                    fab.Visibility = (ViewStates.Gone);
+                    frame.Visibility = (ViewStates.Visible);
+
+                    ImageView image = FindViewById<ImageView>(Resource.Id.mainView);
+                    image.SetImageBitmap(bitmap1);
+                    }
                 }
                 _lastMouseEventTime = now;
             };
@@ -89,6 +145,15 @@ namespace St_Josephs.Droid
                 button2.SetImageBitmap(bmp1);
 
                 button1.SetImageBitmap(bitmap);
+
+                //Now lets actually save the image to the device.
+                var sdCardPath = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath;
+                string[] filePaths = Directory.GetFiles(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "*.jpeg");
+                var filePath = System.IO.Path.Combine(sdCardPath, filePaths.Count() + ".jpeg");
+                var stream = new FileStream(filePath, FileMode.Create);
+                bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, stream);
+                stream.Close();
+
 
                 //TODO: Do something useful with the thumbnail
             } else
