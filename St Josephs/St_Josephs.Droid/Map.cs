@@ -186,7 +186,7 @@ namespace St_Josephs.Droid
             switch (item.ItemId)
             {
                 case Resource.Id.inside:
-                    StartActivity(typeof(Notepad));
+                    StartActivity(typeof(Inside));
                     return false;
             }
             return base.OnOptionsItemSelected(item);

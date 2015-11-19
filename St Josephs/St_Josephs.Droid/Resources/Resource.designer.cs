@@ -49,16 +49,25 @@ namespace St_Josephs.Droid
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::St_Josephs.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple;
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_shadow = global::St_Josephs.Droid.Resource.Styleable.FloatingActionButton_fab_shadow;
 			global::com.refractored.fab.Resource.Styleable.FloatingActionButton_fab_size = global::St_Josephs.Droid.Resource.Styleable.FloatingActionButton_fab_size;
+			global::XamSvg.Resource.Attribute.colorMapping = global::St_Josephs.Droid.Resource.Attribute.colorMapping;
+			global::XamSvg.Resource.Attribute.colorMappingSelected = global::St_Josephs.Droid.Resource.Attribute.colorMappingSelected;
+			global::XamSvg.Resource.Attribute.svg = global::St_Josephs.Droid.Resource.Attribute.svg;
+			global::XamSvg.Resource.Attribute.useCache = global::St_Josephs.Droid.Resource.Attribute.useCache;
+			global::XamSvg.Resource.Styleable.SvgImageView = global::St_Josephs.Droid.Resource.Styleable.SvgImageView;
+			global::XamSvg.Resource.Styleable.SvgImageView_colorMapping = global::St_Josephs.Droid.Resource.Styleable.SvgImageView_colorMapping;
+			global::XamSvg.Resource.Styleable.SvgImageView_colorMappingSelected = global::St_Josephs.Droid.Resource.Styleable.SvgImageView_colorMappingSelected;
+			global::XamSvg.Resource.Styleable.SvgImageView_svg = global::St_Josephs.Droid.Resource.Styleable.SvgImageView_svg;
+			global::XamSvg.Resource.Styleable.SvgImageView_useCache = global::St_Josephs.Droid.Resource.Styleable.SvgImageView_useCache;
 		}
 		
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f0a0001
-			public const int items = 2131361793;
+			// aapt resource value: 0x7f0b0001
+			public const int items = 2131427329;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int times = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int times = 2131427328;
 			
 			static Array()
 			{
@@ -112,6 +121,12 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f010013
 			public const int circleCrop = 2130771987;
 			
+			// aapt resource value: 0x7f010020
+			public const int colorMapping = 2130772000;
+			
+			// aapt resource value: 0x7f010021
+			public const int colorMappingSelected = 2130772001;
+			
 			// aapt resource value: 0x7f01001a
 			public const int contentPadding = 2130771994;
 			
@@ -127,23 +142,23 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f01001d
 			public const int contentPaddingTop = 2130771997;
 			
-			// aapt resource value: 0x7f010021
-			public const int fab_colorDisabled = 2130772001;
-			
-			// aapt resource value: 0x7f010020
-			public const int fab_colorNormal = 2130772000;
-			
-			// aapt resource value: 0x7f01001f
-			public const int fab_colorPressed = 2130771999;
-			
-			// aapt resource value: 0x7f010022
-			public const int fab_colorRipple = 2130772002;
-			
-			// aapt resource value: 0x7f010023
-			public const int fab_shadow = 2130772003;
+			// aapt resource value: 0x7f010025
+			public const int fab_colorDisabled = 2130772005;
 			
 			// aapt resource value: 0x7f010024
-			public const int fab_size = 2130772004;
+			public const int fab_colorNormal = 2130772004;
+			
+			// aapt resource value: 0x7f010023
+			public const int fab_colorPressed = 2130772003;
+			
+			// aapt resource value: 0x7f010026
+			public const int fab_colorRipple = 2130772006;
+			
+			// aapt resource value: 0x7f010027
+			public const int fab_shadow = 2130772007;
+			
+			// aapt resource value: 0x7f010028
+			public const int fab_size = 2130772008;
 			
 			// aapt resource value: 0x7f010012
 			public const int imageAspectRatio = 2130771986;
@@ -156,6 +171,9 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f010000
 			public const int mapType = 2130771968;
+			
+			// aapt resource value: 0x7f01001f
+			public const int svg = 2130771999;
 			
 			// aapt resource value: 0x7f010007
 			public const int uiCompass = 2130771975;
@@ -178,6 +196,9 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f01000c
 			public const int uiZoomGestures = 2130771980;
 			
+			// aapt resource value: 0x7f010022
+			public const int useCache = 2130772002;
+			
 			// aapt resource value: 0x7f01000d
 			public const int useViewLifecycle = 2130771981;
 			
@@ -197,62 +218,62 @@ namespace St_Josephs.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f06000a
-			public const int cardview_dark_background = 2131099658;
+			// aapt resource value: 0x7f07000a
+			public const int cardview_dark_background = 2131165194;
 			
-			// aapt resource value: 0x7f06000b
-			public const int cardview_light_background = 2131099659;
+			// aapt resource value: 0x7f07000b
+			public const int cardview_light_background = 2131165195;
 			
-			// aapt resource value: 0x7f06000c
-			public const int cardview_shadow_end_color = 2131099660;
+			// aapt resource value: 0x7f07000c
+			public const int cardview_shadow_end_color = 2131165196;
 			
-			// aapt resource value: 0x7f06000d
-			public const int cardview_shadow_start_color = 2131099661;
+			// aapt resource value: 0x7f07000d
+			public const int cardview_shadow_start_color = 2131165197;
 			
-			// aapt resource value: 0x7f06000f
-			public const int color_action_bar = 2131099663;
+			// aapt resource value: 0x7f07000f
+			public const int color_action_bar = 2131165199;
 			
-			// aapt resource value: 0x7f060009
-			public const int common_action_bar_splitter = 2131099657;
+			// aapt resource value: 0x7f070009
+			public const int common_action_bar_splitter = 2131165193;
 			
-			// aapt resource value: 0x7f060000
-			public const int common_signin_btn_dark_text_default = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int common_signin_btn_dark_text_default = 2131165184;
 			
-			// aapt resource value: 0x7f060002
-			public const int common_signin_btn_dark_text_disabled = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int common_signin_btn_dark_text_disabled = 2131165186;
 			
-			// aapt resource value: 0x7f060003
-			public const int common_signin_btn_dark_text_focused = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int common_signin_btn_dark_text_focused = 2131165187;
 			
-			// aapt resource value: 0x7f060001
-			public const int common_signin_btn_dark_text_pressed = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int common_signin_btn_dark_text_pressed = 2131165185;
 			
-			// aapt resource value: 0x7f060008
-			public const int common_signin_btn_default_background = 2131099656;
+			// aapt resource value: 0x7f070008
+			public const int common_signin_btn_default_background = 2131165192;
 			
-			// aapt resource value: 0x7f060004
-			public const int common_signin_btn_light_text_default = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int common_signin_btn_light_text_default = 2131165188;
 			
-			// aapt resource value: 0x7f060006
-			public const int common_signin_btn_light_text_disabled = 2131099654;
+			// aapt resource value: 0x7f070006
+			public const int common_signin_btn_light_text_disabled = 2131165190;
 			
-			// aapt resource value: 0x7f060007
-			public const int common_signin_btn_light_text_focused = 2131099655;
+			// aapt resource value: 0x7f070007
+			public const int common_signin_btn_light_text_focused = 2131165191;
 			
-			// aapt resource value: 0x7f060005
-			public const int common_signin_btn_light_text_pressed = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int common_signin_btn_light_text_pressed = 2131165189;
 			
-			// aapt resource value: 0x7f060011
-			public const int common_signin_btn_text_dark = 2131099665;
+			// aapt resource value: 0x7f070011
+			public const int common_signin_btn_text_dark = 2131165201;
 			
-			// aapt resource value: 0x7f060012
-			public const int common_signin_btn_text_light = 2131099666;
+			// aapt resource value: 0x7f070012
+			public const int common_signin_btn_text_light = 2131165202;
 			
-			// aapt resource value: 0x7f060010
-			public const int darker_action_bar = 2131099664;
+			// aapt resource value: 0x7f070010
+			public const int darker_action_bar = 2131165200;
 			
-			// aapt resource value: 0x7f06000e
-			public const int fab_material_blue_500 = 2131099662;
+			// aapt resource value: 0x7f07000e
+			public const int fab_material_blue_500 = 2131165198;
 			
 			static Color()
 			{
@@ -267,29 +288,29 @@ namespace St_Josephs.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f080000
-			public const int cardview_compat_inset_shadow = 2131230720;
+			// aapt resource value: 0x7f090000
+			public const int cardview_compat_inset_shadow = 2131296256;
 			
-			// aapt resource value: 0x7f080001
-			public const int cardview_default_elevation = 2131230721;
+			// aapt resource value: 0x7f090001
+			public const int cardview_default_elevation = 2131296257;
 			
-			// aapt resource value: 0x7f080002
-			public const int cardview_default_radius = 2131230722;
+			// aapt resource value: 0x7f090002
+			public const int cardview_default_radius = 2131296258;
 			
-			// aapt resource value: 0x7f080007
-			public const int fab_elevation_lollipop = 2131230727;
+			// aapt resource value: 0x7f090007
+			public const int fab_elevation_lollipop = 2131296263;
 			
-			// aapt resource value: 0x7f080006
-			public const int fab_scroll_threshold = 2131230726;
+			// aapt resource value: 0x7f090006
+			public const int fab_scroll_threshold = 2131296262;
 			
-			// aapt resource value: 0x7f080005
-			public const int fab_shadow_size = 2131230725;
+			// aapt resource value: 0x7f090005
+			public const int fab_shadow_size = 2131296261;
 			
-			// aapt resource value: 0x7f080004
-			public const int fab_size_mini = 2131230724;
+			// aapt resource value: 0x7f090004
+			public const int fab_size_mini = 2131296260;
 			
-			// aapt resource value: 0x7f080003
-			public const int fab_size_normal = 2131230723;
+			// aapt resource value: 0x7f090003
+			public const int fab_size_normal = 2131296259;
 			
 			static Dimension()
 			{
@@ -419,80 +440,80 @@ namespace St_Josephs.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0005
-			public const int adjust_height = 2131492869;
+			// aapt resource value: 0x7f0d0005
+			public const int adjust_height = 2131558405;
 			
-			// aapt resource value: 0x7f0c0006
-			public const int adjust_width = 2131492870;
+			// aapt resource value: 0x7f0d0006
+			public const int adjust_width = 2131558406;
 			
-			// aapt resource value: 0x7f0c0008
-			public const int android_support_v7_widget_CardView2 = 2131492872;
+			// aapt resource value: 0x7f0d0009
+			public const int android_support_v7_widget_CardView2 = 2131558409;
 			
-			// aapt resource value: 0x7f0c000c
-			public const int editText1 = 2131492876;
+			// aapt resource value: 0x7f0d000c
+			public const int editText1 = 2131558412;
 			
-			// aapt resource value: 0x7f0c000b
-			public const int editText2 = 2131492875;
+			// aapt resource value: 0x7f0d000b
+			public const int editText2 = 2131558411;
 			
-			// aapt resource value: 0x7f0c000a
-			public const int fab = 2131492874;
+			// aapt resource value: 0x7f0d000a
+			public const int fab = 2131558410;
 			
-			// aapt resource value: 0x7f0c0012
-			public const int frameLayout2 = 2131492882;
+			// aapt resource value: 0x7f0d0012
+			public const int frameLayout2 = 2131558418;
 			
-			// aapt resource value: 0x7f0c0014
-			public const int frameLayout3 = 2131492884;
+			// aapt resource value: 0x7f0d0014
+			public const int frameLayout3 = 2131558420;
 			
-			// aapt resource value: 0x7f0c0000
-			public const int hybrid = 2131492864;
+			// aapt resource value: 0x7f0d0000
+			public const int hybrid = 2131558400;
 			
-			// aapt resource value: 0x7f0c0013
-			public const int imageButton2 = 2131492883;
+			// aapt resource value: 0x7f0d0013
+			public const int imageButton2 = 2131558419;
 			
-			// aapt resource value: 0x7f0c0010
-			public const int imageShow = 2131492880;
+			// aapt resource value: 0x7f0d0010
+			public const int imageShow = 2131558416;
 			
-			// aapt resource value: 0x7f0c0017
-			public const int inside = 2131492887;
+			// aapt resource value: 0x7f0d0017
+			public const int inside = 2131558423;
 			
-			// aapt resource value: 0x7f0c0011
-			public const int mainView = 2131492881;
+			// aapt resource value: 0x7f0d0011
+			public const int mainView = 2131558417;
 			
-			// aapt resource value: 0x7f0c0009
-			public const int map = 2131492873;
+			// aapt resource value: 0x7f0d0008
+			public const int map = 2131558408;
 			
-			// aapt resource value: 0x7f0c0007
-			public const int mini = 2131492871;
+			// aapt resource value: 0x7f0d0007
+			public const int mini = 2131558407;
 			
-			// aapt resource value: 0x7f0c0001
-			public const int none = 2131492865;
+			// aapt resource value: 0x7f0d0001
+			public const int none = 2131558401;
 			
-			// aapt resource value: 0x7f0c0002
-			public const int normal = 2131492866;
+			// aapt resource value: 0x7f0d0002
+			public const int normal = 2131558402;
 			
-			// aapt resource value: 0x7f0c0015
-			public const int notepad = 2131492885;
+			// aapt resource value: 0x7f0d0015
+			public const int notepad = 2131558421;
 			
-			// aapt resource value: 0x7f0c000d
-			public const int paper1 = 2131492877;
+			// aapt resource value: 0x7f0d000d
+			public const int paper1 = 2131558413;
 			
-			// aapt resource value: 0x7f0c000e
-			public const int paper2 = 2131492878;
+			// aapt resource value: 0x7f0d000e
+			public const int paper2 = 2131558414;
 			
-			// aapt resource value: 0x7f0c000f
-			public const int paper3 = 2131492879;
+			// aapt resource value: 0x7f0d000f
+			public const int paper3 = 2131558415;
 			
-			// aapt resource value: 0x7f0c0003
-			public const int satellite = 2131492867;
+			// aapt resource value: 0x7f0d0003
+			public const int satellite = 2131558403;
 			
-			// aapt resource value: 0x7f0c0018
-			public const int save = 2131492888;
+			// aapt resource value: 0x7f0d0018
+			public const int save = 2131558424;
 			
-			// aapt resource value: 0x7f0c0016
-			public const int settings = 2131492886;
+			// aapt resource value: 0x7f0d0016
+			public const int settings = 2131558422;
 			
-			// aapt resource value: 0x7f0c0004
-			public const int terrain = 2131492868;
+			// aapt resource value: 0x7f0d0004
+			public const int terrain = 2131558404;
 			
 			static Id()
 			{
@@ -507,8 +528,8 @@ namespace St_Josephs.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int google_play_services_version = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int google_play_services_version = 2131230720;
 			
 			static Integer()
 			{
@@ -524,19 +545,22 @@ namespace St_Josephs.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Inside = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Map = 2130903041;
+			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Note = 2130903042;
+			public const int Map = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Notepad = 2130903043;
+			public const int Note = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int PictureTake = 2130903044;
+			public const int Notepad = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int PictureTake = 2130903045;
 			
 			static Layout()
 			{
@@ -551,17 +575,17 @@ namespace St_Josephs.Droid
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int main_menu = 2131427328;
+			// aapt resource value: 0x7f0c0000
+			public const int main_menu = 2131492864;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int map = 2131427329;
+			// aapt resource value: 0x7f0c0001
+			public const int map = 2131492865;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int note = 2131427330;
+			// aapt resource value: 0x7f0c0002
+			public const int note = 2131492866;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int notepad = 2131427331;
+			// aapt resource value: 0x7f0c0003
+			public const int notepad = 2131492867;
 			
 			static Menu()
 			{
@@ -573,116 +597,132 @@ namespace St_Josephs.Droid
 			}
 		}
 		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int floor1 = 2131034112;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050023
-			public const int app_name = 2131034147;
+			// aapt resource value: 0x7f060023
+			public const int app_name = 2131099683;
 			
-			// aapt resource value: 0x7f050001
-			public const int auth_google_play_services_client_facebook_display_name = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int auth_google_play_services_client_facebook_display_name = 2131099649;
 			
-			// aapt resource value: 0x7f050000
-			public const int auth_google_play_services_client_google_display_name = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int auth_google_play_services_client_google_display_name = 2131099648;
 			
-			// aapt resource value: 0x7f050004
-			public const int common_android_wear_notification_needs_update_text = 2131034116;
+			// aapt resource value: 0x7f060004
+			public const int common_android_wear_notification_needs_update_text = 2131099652;
 			
-			// aapt resource value: 0x7f050011
-			public const int common_android_wear_update_text = 2131034129;
+			// aapt resource value: 0x7f060011
+			public const int common_android_wear_update_text = 2131099665;
 			
-			// aapt resource value: 0x7f05000f
-			public const int common_android_wear_update_title = 2131034127;
+			// aapt resource value: 0x7f06000f
+			public const int common_android_wear_update_title = 2131099663;
 			
-			// aapt resource value: 0x7f05001d
-			public const int common_google_play_services_api_unavailable_text = 2131034141;
+			// aapt resource value: 0x7f06001d
+			public const int common_google_play_services_api_unavailable_text = 2131099677;
 			
-			// aapt resource value: 0x7f05000d
-			public const int common_google_play_services_enable_button = 2131034125;
+			// aapt resource value: 0x7f06000d
+			public const int common_google_play_services_enable_button = 2131099661;
 			
-			// aapt resource value: 0x7f05000c
-			public const int common_google_play_services_enable_text = 2131034124;
+			// aapt resource value: 0x7f06000c
+			public const int common_google_play_services_enable_text = 2131099660;
 			
-			// aapt resource value: 0x7f05000b
-			public const int common_google_play_services_enable_title = 2131034123;
+			// aapt resource value: 0x7f06000b
+			public const int common_google_play_services_enable_title = 2131099659;
 			
-			// aapt resource value: 0x7f050006
-			public const int common_google_play_services_error_notification_requested_by_msg = 2131034118;
+			// aapt resource value: 0x7f060006
+			public const int common_google_play_services_error_notification_requested_by_msg = 2131099654;
 			
-			// aapt resource value: 0x7f05000a
-			public const int common_google_play_services_install_button = 2131034122;
+			// aapt resource value: 0x7f06000a
+			public const int common_google_play_services_install_button = 2131099658;
 			
-			// aapt resource value: 0x7f050008
-			public const int common_google_play_services_install_text_phone = 2131034120;
+			// aapt resource value: 0x7f060008
+			public const int common_google_play_services_install_text_phone = 2131099656;
 			
-			// aapt resource value: 0x7f050009
-			public const int common_google_play_services_install_text_tablet = 2131034121;
+			// aapt resource value: 0x7f060009
+			public const int common_google_play_services_install_text_tablet = 2131099657;
 			
-			// aapt resource value: 0x7f050007
-			public const int common_google_play_services_install_title = 2131034119;
+			// aapt resource value: 0x7f060007
+			public const int common_google_play_services_install_title = 2131099655;
 			
-			// aapt resource value: 0x7f050017
-			public const int common_google_play_services_invalid_account_text = 2131034135;
+			// aapt resource value: 0x7f060017
+			public const int common_google_play_services_invalid_account_text = 2131099671;
 			
-			// aapt resource value: 0x7f050016
-			public const int common_google_play_services_invalid_account_title = 2131034134;
+			// aapt resource value: 0x7f060016
+			public const int common_google_play_services_invalid_account_title = 2131099670;
 			
-			// aapt resource value: 0x7f050005
-			public const int common_google_play_services_needs_enabling_title = 2131034117;
+			// aapt resource value: 0x7f060005
+			public const int common_google_play_services_needs_enabling_title = 2131099653;
 			
-			// aapt resource value: 0x7f050015
-			public const int common_google_play_services_network_error_text = 2131034133;
+			// aapt resource value: 0x7f060015
+			public const int common_google_play_services_network_error_text = 2131099669;
 			
-			// aapt resource value: 0x7f050014
-			public const int common_google_play_services_network_error_title = 2131034132;
+			// aapt resource value: 0x7f060014
+			public const int common_google_play_services_network_error_title = 2131099668;
 			
-			// aapt resource value: 0x7f050003
-			public const int common_google_play_services_notification_needs_update_title = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int common_google_play_services_notification_needs_update_title = 2131099651;
 			
-			// aapt resource value: 0x7f050002
-			public const int common_google_play_services_notification_ticker = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int common_google_play_services_notification_ticker = 2131099650;
 			
-			// aapt resource value: 0x7f05001f
-			public const int common_google_play_services_sign_in_failed_text = 2131034143;
+			// aapt resource value: 0x7f06001f
+			public const int common_google_play_services_sign_in_failed_text = 2131099679;
 			
-			// aapt resource value: 0x7f05001e
-			public const int common_google_play_services_sign_in_failed_title = 2131034142;
+			// aapt resource value: 0x7f06001e
+			public const int common_google_play_services_sign_in_failed_title = 2131099678;
 			
-			// aapt resource value: 0x7f050018
-			public const int common_google_play_services_unknown_issue = 2131034136;
+			// aapt resource value: 0x7f060018
+			public const int common_google_play_services_unknown_issue = 2131099672;
 			
-			// aapt resource value: 0x7f05001a
-			public const int common_google_play_services_unsupported_text = 2131034138;
+			// aapt resource value: 0x7f06001a
+			public const int common_google_play_services_unsupported_text = 2131099674;
 			
-			// aapt resource value: 0x7f050019
-			public const int common_google_play_services_unsupported_title = 2131034137;
+			// aapt resource value: 0x7f060019
+			public const int common_google_play_services_unsupported_title = 2131099673;
 			
-			// aapt resource value: 0x7f05001b
-			public const int common_google_play_services_update_button = 2131034139;
+			// aapt resource value: 0x7f06001b
+			public const int common_google_play_services_update_button = 2131099675;
 			
-			// aapt resource value: 0x7f050010
-			public const int common_google_play_services_update_text = 2131034128;
+			// aapt resource value: 0x7f060010
+			public const int common_google_play_services_update_text = 2131099664;
 			
-			// aapt resource value: 0x7f05000e
-			public const int common_google_play_services_update_title = 2131034126;
+			// aapt resource value: 0x7f06000e
+			public const int common_google_play_services_update_title = 2131099662;
 			
-			// aapt resource value: 0x7f050013
-			public const int common_google_play_services_updating_text = 2131034131;
+			// aapt resource value: 0x7f060013
+			public const int common_google_play_services_updating_text = 2131099667;
 			
-			// aapt resource value: 0x7f050012
-			public const int common_google_play_services_updating_title = 2131034130;
+			// aapt resource value: 0x7f060012
+			public const int common_google_play_services_updating_title = 2131099666;
 			
-			// aapt resource value: 0x7f05001c
-			public const int common_open_on_phone = 2131034140;
+			// aapt resource value: 0x7f06001c
+			public const int common_open_on_phone = 2131099676;
 			
-			// aapt resource value: 0x7f050020
-			public const int common_signin_button_text = 2131034144;
+			// aapt resource value: 0x7f060020
+			public const int common_signin_button_text = 2131099680;
 			
-			// aapt resource value: 0x7f050021
-			public const int common_signin_button_text_long = 2131034145;
+			// aapt resource value: 0x7f060021
+			public const int common_signin_button_text_long = 2131099681;
 			
-			// aapt resource value: 0x7f050022
-			public const int hello = 2131034146;
+			// aapt resource value: 0x7f060022
+			public const int hello = 2131099682;
 			
 			static String()
 			{
@@ -697,29 +737,29 @@ namespace St_Josephs.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f090003
-			public const int AppTheme = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int AppTheme = 2131361795;
 			
-			// aapt resource value: 0x7f090000
-			public const int CardView = 2131296256;
+			// aapt resource value: 0x7f0a0000
+			public const int CardView = 2131361792;
 			
-			// aapt resource value: 0x7f090001
-			public const int CardView_Dark = 2131296257;
+			// aapt resource value: 0x7f0a0001
+			public const int CardView_Dark = 2131361793;
 			
-			// aapt resource value: 0x7f090002
-			public const int CardView_Light = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int CardView_Light = 2131361794;
 			
-			// aapt resource value: 0x7f090005
-			public const int MapTheme = 2131296261;
+			// aapt resource value: 0x7f0a0005
+			public const int MapTheme = 2131361797;
 			
-			// aapt resource value: 0x7f090007
-			public const int Mono_Android_Theme_Splash = 2131296263;
+			// aapt resource value: 0x7f0a0007
+			public const int Mono_Android_Theme_Splash = 2131361799;
 			
-			// aapt resource value: 0x7f090004
-			public const int NotepadTheme = 2131296260;
+			// aapt resource value: 0x7f0a0004
+			public const int NotepadTheme = 2131361796;
 			
-			// aapt resource value: 0x7f090006
-			public const int full_screen_dialog = 2131296262;
+			// aapt resource value: 0x7f0a0006
+			public const int full_screen_dialog = 2131361798;
 			
 			static Style()
 			{
@@ -797,12 +837,12 @@ namespace St_Josephs.Droid
 			public const int CardView_contentPaddingTop = 9;
 			
 			public static int[] FloatingActionButton = new int[] {
-					2130771999,
-					2130772000,
-					2130772001,
-					2130772002,
 					2130772003,
-					2130772004};
+					2130772004,
+					2130772005,
+					2130772006,
+					2130772007,
+					2130772008};
 			
 			// aapt resource value: 2
 			public const int FloatingActionButton_fab_colorDisabled = 2;
@@ -905,6 +945,24 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 14
 			public const int MapAttrs_zOrderOnTop = 14;
+			
+			public static int[] SvgImageView = new int[] {
+					2130771999,
+					2130772000,
+					2130772001,
+					2130772002};
+			
+			// aapt resource value: 1
+			public const int SvgImageView_colorMapping = 1;
+			
+			// aapt resource value: 2
+			public const int SvgImageView_colorMappingSelected = 2;
+			
+			// aapt resource value: 0
+			public const int SvgImageView_svg = 0;
+			
+			// aapt resource value: 3
+			public const int SvgImageView_useCache = 3;
 			
 			static Styleable()
 			{

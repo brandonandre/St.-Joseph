@@ -41,7 +41,7 @@ namespace St_Josephs.Droid
             switch (item.ItemId)
             {
                 case Resource.Id.notepad:
-                    StartActivity(typeof(Notepad));
+                    StartActivity(typeof(NewNote));
                     return false;
                 case Resource.Id.settings:
                     StartActivity(typeof(Settings));
