@@ -449,38 +449,38 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0d0009
 			public const int android_support_v7_widget_CardView2 = 2131558409;
 			
+			// aapt resource value: 0x7f0d000d
+			public const int editText1 = 2131558413;
+			
 			// aapt resource value: 0x7f0d000c
-			public const int editText1 = 2131558412;
+			public const int editText2 = 2131558412;
 			
 			// aapt resource value: 0x7f0d000b
-			public const int editText2 = 2131558411;
+			public const int fab = 2131558411;
 			
-			// aapt resource value: 0x7f0d000a
-			public const int fab = 2131558410;
+			// aapt resource value: 0x7f0d0013
+			public const int frameLayout2 = 2131558419;
 			
-			// aapt resource value: 0x7f0d0012
-			public const int frameLayout2 = 2131558418;
-			
-			// aapt resource value: 0x7f0d0014
-			public const int frameLayout3 = 2131558420;
+			// aapt resource value: 0x7f0d0015
+			public const int frameLayout3 = 2131558421;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int hybrid = 2131558400;
 			
-			// aapt resource value: 0x7f0d0013
-			public const int imageButton2 = 2131558419;
-			
-			// aapt resource value: 0x7f0d0010
-			public const int imageShow = 2131558416;
-			
-			// aapt resource value: 0x7f0d0017
-			public const int inside = 2131558423;
+			// aapt resource value: 0x7f0d0014
+			public const int imageButton2 = 2131558420;
 			
 			// aapt resource value: 0x7f0d0011
-			public const int mainView = 2131558417;
+			public const int imageShow = 2131558417;
 			
-			// aapt resource value: 0x7f0d0008
-			public const int map = 2131558408;
+			// aapt resource value: 0x7f0d0018
+			public const int inside = 2131558424;
+			
+			// aapt resource value: 0x7f0d0012
+			public const int mainView = 2131558418;
+			
+			// aapt resource value: 0x7f0d000a
+			public const int map = 2131558410;
 			
 			// aapt resource value: 0x7f0d0007
 			public const int mini = 2131558407;
@@ -491,29 +491,32 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f0d0002
 			public const int normal = 2131558402;
 			
-			// aapt resource value: 0x7f0d0015
-			public const int notepad = 2131558421;
-			
-			// aapt resource value: 0x7f0d000d
-			public const int paper1 = 2131558413;
+			// aapt resource value: 0x7f0d0016
+			public const int notepad = 2131558422;
 			
 			// aapt resource value: 0x7f0d000e
-			public const int paper2 = 2131558414;
+			public const int paper1 = 2131558414;
 			
 			// aapt resource value: 0x7f0d000f
-			public const int paper3 = 2131558415;
+			public const int paper2 = 2131558415;
+			
+			// aapt resource value: 0x7f0d0010
+			public const int paper3 = 2131558416;
 			
 			// aapt resource value: 0x7f0d0003
 			public const int satellite = 2131558403;
 			
-			// aapt resource value: 0x7f0d0018
-			public const int save = 2131558424;
+			// aapt resource value: 0x7f0d0019
+			public const int save = 2131558425;
 			
-			// aapt resource value: 0x7f0d0016
-			public const int settings = 2131558422;
+			// aapt resource value: 0x7f0d0017
+			public const int settings = 2131558423;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int terrain = 2131558404;
+			
+			// aapt resource value: 0x7f0d0008
+			public const int web = 2131558408;
 			
 			static Id()
 			{
