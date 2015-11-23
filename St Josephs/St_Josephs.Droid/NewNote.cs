@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using System.IO;
 
 namespace St_Josephs.Droid
 {
@@ -22,7 +23,9 @@ namespace St_Josephs.Droid
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Note);
-            // Create your application here
+
+
+
         }
 
         //Preparing the menu to inflate it.
@@ -47,6 +50,15 @@ namespace St_Josephs.Droid
                     return false;
             }
             return base.OnOptionsItemSelected(item);
+        }
+
+
+        public static void SaveString(this Application Context, string key, string value)
+        {
+            var prefs = Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            var prefEditor = prefs.Edit();
+            prefEditor.PutString(key, value);
+            prefEditor.Commit();
         }
     }
 }
