@@ -20,6 +20,20 @@
   </PreferenceCategory>
 
   <PreferenceCategory
+  android:title="NOTEPAD"
+  android:key="pref_key_storage_settings2">
+    <CheckBoxPreference
+            android:key="notepad_checkbox_preference"
+            android:title="New notes as Notification"
+            android:summary="For easy access and to remember them." />
+
+    <Preference
+    android:key="deleteAll"
+    android:title="Delete all notes"/>
+
+  </PreferenceCategory>
+  
+  <PreferenceCategory
       android:title="INFORMATION"
       android:key="info">
 

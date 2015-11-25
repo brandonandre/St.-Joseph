@@ -416,16 +416,19 @@ namespace St_Josephs.Droid
 			public const int ic_delete_black_36dp = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int ic_search_white_24dp = 2130837534;
+			public const int ic_insert_drive_file_white_24dp = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int ic_share_black_36dp = 2130837535;
+			public const int ic_search_white_24dp = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int Icon = 2130837536;
+			public const int ic_share_black_36dp = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int monoandroidsplash = 2130837537;
+			public const int Icon = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int monoandroidsplash = 2130837538;
 			
 			static Drawable()
 			{
@@ -448,12 +451,6 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f0d0009
 			public const int android_support_v7_widget_CardView2 = 2131558409;
-			
-			// aapt resource value: 0x7f0d000d
-			public const int editText1 = 2131558413;
-			
-			// aapt resource value: 0x7f0d000c
-			public const int editText2 = 2131558412;
 			
 			// aapt resource value: 0x7f0d000b
 			public const int fab = 2131558411;
@@ -514,6 +511,12 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f0d0004
 			public const int terrain = 2131558404;
+			
+			// aapt resource value: 0x7f0d000d
+			public const int text = 2131558413;
+			
+			// aapt resource value: 0x7f0d000c
+			public const int title = 2131558412;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int web = 2131558408;
