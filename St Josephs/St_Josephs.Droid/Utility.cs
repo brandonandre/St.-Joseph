@@ -38,7 +38,7 @@ namespace St_Josephs.Droid
 
         public static void SaveString(this Context Context, string key, string value)
         {
-            var prefs = Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            var prefs = Application.Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
             var prefEditor = prefs.Edit();
             prefEditor.PutString(key, value);
             prefEditor.Commit();
@@ -46,7 +46,7 @@ namespace St_Josephs.Droid
 
         public static void SaveNumber(this Context Context, string key, int value)
         {
-            var prefs = Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            var prefs = Application.Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
             var prefEditor = prefs.Edit();
             prefEditor.PutInt(key, value);
             prefEditor.Commit();
@@ -54,14 +54,28 @@ namespace St_Josephs.Droid
 
         public static int getInt(this Context Context, string key)
         {
-            var prefs = Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            var prefs = Application.Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
             return prefs.GetInt(key, 0);
+        }
+
+        public static string getString(this Context Context, string key)
+        {
+            var prefs = Application.Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            return prefs.GetString(key, "No Title Added.");
         }
 
         public static bool getBoolean(Context Context, string key, bool defaultValue)
         {
-            var prefs = Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
+            var prefs = Application.Context.GetSharedPreferences(Context.PackageName, FileCreationMode.Private);
             return true; //prefs.GetBoolean(key, defaultValue);
+        }
+
+        public static void Populate<T>(this T[] arr, T value)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = value;
+            }
         }
     }
 

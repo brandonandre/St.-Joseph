@@ -240,5 +240,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\ic_insert_drive_file_white_24dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\list_black_text.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

@@ -57,11 +57,11 @@ namespace St_Josephs.Droid
 
                     if (title.Text != "")
                     {
-                        Utility.SaveString(this, "Title" + total + 1, title.Text);
+                        Utility.SaveString(this, "Title" + (total+1) , title.Text);
                     }
                     if (text.Text != "")
                     {
-                        Utility.SaveString(this, "Text" + total + 1, text.Text);
+                        Utility.SaveString(this, "Text" + (total+1), text.Text);
                     }
 
                     if (Utility.getBoolean(this, "notepad_checkbox_preference", false))
