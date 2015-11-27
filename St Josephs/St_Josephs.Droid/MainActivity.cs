@@ -40,14 +40,25 @@ namespace St_Josephs.Droid
                 items.Add("Nothing is here...");
             } else
             {
-                for (int i = 0; i <= total; i++)
+                int added = 0;
+                for (int i = 1; i <= total; i++)
                 {
-                    var prefs = Application.Context.GetSharedPreferences(PackageName, FileCreationMode.Private);
-                    string newTitle = prefs.GetString("Title"+i, "Not found");
-                    items.Add(newTitle);
+                    if (added < 5) {
+                        var prefs = Application.Context.GetSharedPreferences(PackageName, FileCreationMode.Private);
+                        string newTitle = prefs.GetString("Title" + i, "Not found");
+                        items.Add(newTitle);
+                        added = added + 1;
+                    }
                 }
             }
-            noteview.Adapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, items);
+
+           ViewGroup.LayoutParams params1 = noteview.LayoutParameters;
+            params1.Height = 130 * items.Count;
+            noteview.LayoutParameters = params1;
+
+            items.Reverse();
+
+            noteview.Adapter = new ArrayAdapter<String>(this, Resource.Layout.list_black_text, items);
         }
 
         //Preparing the menu to inflate it.
