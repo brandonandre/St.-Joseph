@@ -1,0 +1,25 @@
+{
+  "notifications": [
+    false,
+    false,
+    false
+  ],
+  "notificationTitle": [
+    "",
+    "",
+    ""
+  ],
+  "notificationMessage": [
+    "",
+    "",
+    ""
+  ],
+  "notificationType": [
+    "SNOWDAY",
+    "EMERGENCY",
+    "NORMAL"
+  ],
+  
+  "dressdown": false,
+  "dresscolor":"pink"
+}
