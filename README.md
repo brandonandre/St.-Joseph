@@ -101,6 +101,34 @@ Here are a table of what value to use:
 | "Bus"  | Bus Delays/Cancelations | ![alt tag](http://i.imgur.com/rWHFG3Y.png) | ![alt tag](http://i.imgur.com/dedzBtv.png) |
 | "Default" or ""  | Default. | ![alt tag](http://i.imgur.com/JXysZ2N.png) | ![alt tag](http://i.imgur.com/mrA1ihx.png) |
 
+## JSON template
+If you accidentally broke it, you can copy and paste this code into the file to restart from scratch. Please ask for assistance if you need it.
+
+```
+{
+  "notifications": [
+    false,
+    false,
+    false
+  ],
+  "notificationTitle": [
+    "",
+    "",
+    ""
+  ],
+  "notificationMessage": [
+    "",
+    "",
+    ""
+  ],
+  "notificationType": [
+    "",
+    "",
+    ""
+  ]
+}
+
+```
 
 # Developers
 
