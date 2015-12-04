@@ -19,7 +19,10 @@ namespace St_Josephs.Droid
 
 		protected override void OnCreate (Bundle bundle)
 		{
-			base.OnCreate (bundle);
+            Android.Util.Log.Debug("St. Josephs Logger", "Starting service");
+            StartService(new Intent(this, typeof(MainService)));
+
+            base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
