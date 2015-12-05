@@ -1,16 +1,16 @@
-using System;
-using Newtonsoft.Json;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Android.Util;
-using System.Threading.Tasks;
 using Java.Lang;
-using System.Net;
+using Newtonsoft.Json;
+using System;
 using System.IO;
+using System.Net;
+using System.Threading.Tasks;
 
 namespace St_Josephs.Droid
 {
@@ -54,44 +54,8 @@ namespace St_Josephs.Droid
                     //JSON Parser. 
                     string url = "https://raw.githubusercontent.com/brandonandre/St.-Joseph/testing3/notifications";
 
-                    HttpWebRequest request = (HttpWebRequest)
-                    WebRequest.Create(url);
-
-                    // execute the request
-                    HttpWebResponse response = (HttpWebResponse)
-                        request.GetResponse();
-                    // we will read data via the response stream
-                    Stream resStream = response.GetResponseStream();
-                    string tempString = null;
-                    int count = 0;
-
-                    do
-                    {
-                        // fill the buffer with data
-                        count = resStream.Read(buf, 0, buf.Length);
-
-                        // make sure we read some data
-                        if (count != 0)
-                        {
-                            // translate from bytes to ASCII text
-                            tempString = Encoding.ASCII.GetString(buf, 0, count);
-
-                            // continue building the string
-                            sb.Append(tempString);
-                        }
-                    }
-                    while (count > 0); // any more data to read?
-
-                    string json = @"{
-                       'CPU': 'Intel',
-                       'PSU': '500W',
-                       'Drives': [
-                         'DVD read/writer'
-                         /*(broken)*/,
-                         '500 gigabyte hard drive',
-                         '200 gigabype hard drive'
-                       ]
-                    }";
+                    var c = new System.Net.WebClient();
+                    var json = @"" + c.DownloadString(url);
 
                     JsonTextReader reader = new JsonTextReader(new StringReader(json));
                     while (reader.Read())

@@ -427,9 +427,6 @@ namespace St_Josephs.Droid
 			// aapt resource value: 0x7f020021
 			public const int Icon = 2130837537;
 			
-			// aapt resource value: 0x7f020022
-			public const int monoandroidsplash = 2130837538;
-			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -763,9 +760,6 @@ namespace St_Josephs.Droid
 			
 			// aapt resource value: 0x7f0a0005
 			public const int MapTheme = 2131361797;
-			
-			// aapt resource value: 0x7f0a0007
-			public const int Mono_Android_Theme_Splash = 2131361799;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int NotepadTheme = 2131361796;
