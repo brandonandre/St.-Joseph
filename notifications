@@ -1,16 +1,16 @@
 {
   "notifications": [
-    false,
+    true,
     false,
     false
   ],
   "notificationTitle": [
-    "",
+    "Test",
     "",
     ""
   ],
   "notificationMessage": [
-    "",
+    "Message",
     "",
     ""
   ],
